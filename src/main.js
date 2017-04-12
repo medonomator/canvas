@@ -5,6 +5,9 @@ let ctx = canvas.getContext('2d');
 let w = canvas.width;
 let h = canvas.height;
 
+
+// my snake game
+
 // button
 knopki()
 
