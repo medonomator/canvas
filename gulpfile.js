@@ -3,12 +3,12 @@ var gulp         = require('gulp'),
 		autoprefixer = require('gulp-autoprefixer'),
 		browserSync  = require('browser-sync').create(),
 		uglify       = require('gulp-uglifyjs');
-		concat       = require('gulp-concat'),	
+		concat       = require('gulp-concat'),
 
 gulp.task('browser-sync', ['styles', 'scripts'], function() {
 		browserSync.init({
 				server: {
-						baseDir: "./app"
+						baseDir: "./public"
 				},
 				notify: false
 		});
