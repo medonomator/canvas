@@ -6,6 +6,7 @@ let ctx = canvas.getContext('2d');
 let w = canvas.width;
 let h = canvas.height;
 
+// partical system
 
 // button
 knopki()
