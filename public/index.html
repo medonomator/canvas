@@ -7,16 +7,31 @@
       body {
         overflow-x: hidden;
         outline: none;
-        background-color: teal;
       }
       canvas {
         background-color: white;
         border: 2px inset black;
       }
+      li {
+        list-style-type: none;
+
+      }
+      #three {
+        background-color: orange;
+        border: 1px solid;
+        width: 150px;
+        padding-left: 5px;
+        margin-top: 5px;
+      }
+      #child {
+        background-color: cyan;
+        margin: 3px 0px;
+        z-index: 4;
+      }
     </style>
   </head>
   <body>
       <canvas width="1340" height="620" id="canvas"></canvas>
-      <script src="bundle.js"></script>
+      <script src="bundle.js" async></script>
   </body>
 </html>

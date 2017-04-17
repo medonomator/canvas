@@ -11,10 +11,17 @@ let h = canvas.height;
 // button
 knopki()
 
+let us = new USER(30, 30, 30, 30);
 
 function gameLoop() {
   ctx.clearRect(0, 0,w ,h);
 
+  ctx.strokeRect(us.x, us.y, us.width, us.height)
+  us.y *= us.gr;
+
+  if(us.y > h) {
+    us.y = h-us.height
+  }
 
   requestAnimationFrame(gameLoop)
 }

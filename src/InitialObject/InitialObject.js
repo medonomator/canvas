@@ -11,5 +11,14 @@ export function USER(x, y, width, height, color) {
   this.y = y;
   this.width = width;
   this.height = height;
+  this.color = color,
+  this.gr = 1.05;
+}
+
+export function CUB(x, y, width, height, color) {
+  this.x = x;
+  this.y = y;
+  this.width = width;
+  this.height = height;
   this.color = color
 }
