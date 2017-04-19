@@ -8,14 +8,17 @@
         overflow-x: hidden;
         outline: none;
       }
-      canvas {
+      #game {
         background-color: white;
-        border: 2px inset black;
+        border: 1px inset black;
       }
     </style>
   </head>
   <body>
-      <canvas width="1340" height="620" id="canvas"></canvas>
-      <script src="bundle.js"></script>
+    <div id="game"></div>
+
+    <script type="text/javascript" src="https://rawgithub.com/craftyjs/Crafty/release/dist/crafty-min.js"></script>
+
+    <script src="bundle.js"></script>
   </body>
 </html>
